@@ -1,0 +1,14 @@
+.progress-bar {
+    height: 5px;
+    overflow: hidden;
+    background-color: $gray-300;
+    .progress-data {
+        height: 5px;
+    }
+}
+
+.task-menu-header {
+    .progress-data {
+        width: 20%;
+    }
+}

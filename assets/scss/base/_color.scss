@@ -1,0 +1,98 @@
+/****************
+  => Theme-colors
+****************/
+$primary: #00afee;
+$primary-dark:#0c314f;
+$primary-disable: #7fd7f6;
+$primary-light: #b8d8f7;
+$secondary:#5f5f5f;
+
+/****************
+  => Gray
+****************/
+$gray: #eff1f5;
+$gray-light: #fbfbfc; // Overview widget background
+$gray-dark: #6b7897; // Text Color
+
+$white: #ffffff;
+$gray-100: #f5f6fa;
+$gray-200: #cccccc;
+$gray-300: #e0e4ec; // Borders
+$gray-400: #c4c4c4;
+$gray-500: #acb4c7;
+$gray-600: #9da6ba; // Secondary Text
+$gray-700: #808080;
+$gray-800: #707070;
+$gray-900: #222222;
+$black: #000000;
+
+/***********************
+  => Additional colors
+***********************/
+$orange: #ec8e3b;
+$pink: #ff82ac;
+$dark-blue: #2632d0;
+$purple: #aa72c1;
+
+/***********************
+  => Semantic colors
+***********************/
+$success: #80da80; // Success actions, positive button color
+$info: #4c84ff; // Info actions
+$info-dark: #2d69eb;
+$info-light: #ebf2ff;
+$warning: #fec627;
+$warning-light: #fff4d6; // Warning actions
+$danger: #ed8f9d; // Danger actions, negative button color
+
+// Service Type Colors
+$interior: #16db8f;
+$exterior: #6ab04c;
+$interiorExterior: #4834d4;
+$touchup: #ffbb38;
+$isReschedule: #ff82ac;
+$cancelled: $gray;
+
+/****************
+  => for Overlay
+****************/
+$overlay-bg: rgba(0, 0, 0, 0.5);
+
+$light: $gray-600;
+
+/****************
+  => Body
+****************/
+// Settings for the `<body>` element.
+$body-bg: #F5F6FA;
+
+
+/*  box-shadow  */
+$primary-box-shadow: rgba(0, 128, 255, .25);
+$warning-box-shadow: rgba(255, 208, 28, .25);
+$danger-box-shadow: rgba(251, 96, 127, .25);
+$dark-box-shadow: rgba(115, 117, 122, .25);
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "gray": $gray,
+  "gray-dark": $gray-dark,
+  "primary-dark": $primary-dark,
+  "light": $light,
+  "black": $black,
+  "gray-700": $gray-700,
+  "gray-600": $gray-600,
+  "gray-100": $gray-100,
+  "pink": $pink,
+  "interior": $interior,
+  "exterior": $exterior,
+  "touchup": $touchup,
+  "both": $interiorExterior,
+  "isReschedule": $isReschedule,
+  "cancelled": $cancelled
+);

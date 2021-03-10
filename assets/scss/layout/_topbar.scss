@@ -1,0 +1,46 @@
+.top-header {
+    box-shadow: 2px 2px 2px rgba($color: #000000, $alpha: .1);
+    z-index: 10;
+    .navbar {
+        height: 90px;
+        .dropdown-menu {
+            margin-left: 60px;
+        }
+    }
+}
+
+.icon-1 {
+    font-size: $font-size + 6;
+    color: $gray-600;
+    position: relative;
+    &::after {
+        position: absolute;
+        content: '';
+        background-color: $danger;
+        height: 6px;
+        width: 6px;
+        border-radius: 50%;
+    }
+}
+.icon-2 {
+    font-size: $font-size + 10;
+    color: $gray-600;
+}
+.dropdown-toggle {
+    font-weight: $font-bold;
+    color: $black;
+}
+
+.search-div {
+    .form-control {
+        border: none;
+        &:focus {
+            border: none;
+            outline: none;
+        }
+    }
+    .search-icon {
+        color: $gray-600;
+        font-size: $font-size + 6;
+    }
+}
