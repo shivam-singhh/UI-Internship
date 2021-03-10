@@ -11349,7 +11349,6 @@ a.text-cancelled:hover, a.text-cancelled:focus {
 
 .row-1 .graph {
   height: 100px;
-  width: 100%;
 }
 
 .row-1 .card-3 {
@@ -11425,7 +11424,7 @@ a.text-cancelled:hover, a.text-cancelled:focus {
 }
 
 .row-2 .stats-header {
-  padding: 35px 40px;
+  padding: 25px 40px;
 }
 
 .row-2 .stats-header-left {
@@ -11490,10 +11489,11 @@ a.text-cancelled:hover, a.text-cancelled:focus {
 
 .stats-footer {
   padding: 20px 40px;
+  padding-right: 0px;
 }
 
 .stats-footer .stats-data-item {
-  max-width: 18%;
+  padding-right: 40px;
 }
 
 .stats-footer .stats-heading {
@@ -11530,6 +11530,51 @@ a.text-cancelled:hover, a.text-cancelled:focus {
 
 .stats-footer .progress-bar .bar-4 {
   width: 85%;
+}
+
+.insight-div {
+  padding: 40px 0px;
+}
+
+.insight-div .row-3 {
+  width: 85%;
+}
+
+.insight-div .insight-item {
+  max-width: 15%;
+}
+
+.insight-div .insight-item .heading {
+  font-weight: 700;
+}
+
+.insight-div .insight-item .heading .heading-span {
+  font-size: 16px;
+  color: #808080;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+.insight-div .insight-item .insight-info {
+  font-size: 16px;
+  color: #707070;
+  margin-bottom: 30px;
+}
+
+.insight-div .insight-item .bar-1 {
+  width: 60%;
+}
+
+.insight-div .insight-item .bar-2 {
+  width: 65%;
+}
+
+.insight-div .insight-item .bar-3 {
+  width: 65%;
+}
+
+.insight-div .insight-item .bar-4 {
+  width: 65%;
 }
 
 .top-header {

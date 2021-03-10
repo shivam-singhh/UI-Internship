@@ -75,7 +75,6 @@
     }
     .graph {
         height: 100px;
-        width: 100%;
     }
     .card-3 {
         padding: 20px 50px;
@@ -140,7 +139,7 @@
         }
     }
     .stats-header {
-        padding: 35px 40px;
+        padding: 25px 40px;
         &-left {
             margin-right: 15px;
         }
@@ -203,8 +202,9 @@
 
 .stats-footer {
     padding: 20px 40px;
+    padding-right: 0px;
     .stats-data-item {
-        max-width: 18%;
+        padding-right: 40px;
     }
     .stats-heading {
         font-size: $font-size + 4;
@@ -233,6 +233,44 @@
             }
             &-4 {
                 width: 85%;
+            }
+        }
+    }
+}
+
+.insight-div {
+    padding: 40px 0px;
+    .row-3 {
+        width: 85%;
+    }
+    .insight-item {
+        max-width: 15%;
+        .heading {
+            font-weight: $font-bold;
+            .heading-span {
+                font-size: $font-size;
+                color: $gray-700;
+                font-weight: $font-medium;
+                margin-left: 8px;
+            }
+        }
+        .insight-info {
+            font-size: $font-size;
+            color: $gray-800;
+            margin-bottom: 30px;
+        }
+        .bar {
+            &-1 {
+                width: 60%;
+            }
+            &-2 {
+                width: 65%;
+            }
+            &-3 {
+                width: 65%;
+            }
+            &-4 {
+                width: 65%;
             }
         }
     }
